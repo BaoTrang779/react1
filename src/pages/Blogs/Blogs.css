@@ -39,14 +39,15 @@
     position: top;
 
 }
-.body-des p {
+.body-des span {
     text-align: center;
     display: flex;
     padding: 5% 5% 5% 5%;
     margin: 3%;
+    font-size: 18px;
+    font-style: italic;
     padding-bottom: 0%;
     font-family: 'Barlow', sans-serif;
-    font-style: italic;
     background-color:rgba(19, 26, 34, 0.5) ;
     color: rgb(255, 255, 255);
 }

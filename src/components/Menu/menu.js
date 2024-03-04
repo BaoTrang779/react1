@@ -1,4 +1,4 @@
-import '../assets/style/menu.css';
+import './menu.css';
 
 function Menu() {
     return (
@@ -11,7 +11,7 @@ function Menu() {
             
             <div class="nav-links-menu">
                 <ul>
-                    <li><a href="">HOME</a></li>
+                    <li><a href="/">HOME</a></li>
                     <li><a href="/blogs">BLOG</a></li>
                     <li><a href="/manageAnnouncement">MANAGE MY ANOUNCEMENT</a></li>
                     <li><a href="/addRoom">ADD ROOM</a></li>

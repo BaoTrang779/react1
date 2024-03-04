@@ -1,4 +1,4 @@
-import '../assets/style/banner.css';
+import './banner.css';
 function Banner() {
     return (
       <div class="intro">

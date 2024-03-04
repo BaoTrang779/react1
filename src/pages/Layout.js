@@ -1,8 +1,8 @@
 
-import Menu from '../common/menu';
+import Menu from '../components/Menu/menu';
 import { Outlet } from 'react-router-dom';
-import Banner from '../layout/banner';
-import Footer from '../layout/footer';
+import Banner from '../components/Banner/banner';
+import Footer from '../components/Footer/footer';
 function Layout() {
   return (
     <section class="header">

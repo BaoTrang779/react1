@@ -17,11 +17,10 @@ function Blogs() {
                 </div>
 
             </div>
-
-
-            <div className="Blogs">
-                <roomBlog/>            
+            <div className='roomCard'>
+                <roomBlog/>
             </div>
+
 
 
         </section>

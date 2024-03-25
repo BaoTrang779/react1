@@ -19,7 +19,7 @@ function roomBlog() {
                 <div className="room-content">
                     <div className="room-description">
                         <a href="lms.fit.hanu.vn">
-                            <h3>props.title</h3>
+                            <h3>HaNoi Apartmen</h3>
                         </a>
                         <div className="room-row">
                             <p className="room-address">Hanoi</p>

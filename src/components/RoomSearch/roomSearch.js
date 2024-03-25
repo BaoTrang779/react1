@@ -8,13 +8,13 @@ function roomSearch() {
                     <ul>
                         <li className="active">
                             <a href="#" className="link-checkbox d-flex justify-content-between">
-                                <span lassName="text">Apartment</span>
+                                <span className="text">Apartment</span>
                             </a>
                         </li>
                         <li lassName="active">
                             <a href="#" className="link-checkbox d-flex justify-content-between">
                                 <span className="text">Nhà mặt tiền</span>
-                                <div lassName="ms-value"></div>
+                                <div className="ms-value"></div>
                             </a>
                         </li>
                         <li className="active">

@@ -1,9 +1,11 @@
 import './Home.css';
+import Banner from './Banner/banner';
 function Home() {
   return (
-    <div class="intro">
-      <roomSearch />
+    <div className="main">
+      <Banner />
     </div>
+
   );
 }
 

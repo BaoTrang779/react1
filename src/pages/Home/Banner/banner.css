@@ -1,16 +1,19 @@
 .header{
-    min-height: 100vh;
+    min-height: 200vh;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    height: 100%;
+    background-repeat:inherit;
+    background-position:top;
+    background-size:auto;
     position: relative;
+
   }
   .intro{
-    position: relative;
+    position:static;
     background-image:linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.6)), url("D:/ReactJs/react-test/public/images/homepage.svg");
-    padding-top: 10%;
-    display: block;
+    padding-top: 3%;
+    display: flexbox;
+
     text-align: center;
     text-shadow: #181111;
     color: antiquewhite;

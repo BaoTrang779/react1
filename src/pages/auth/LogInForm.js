@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './LogInForm.css';
 
 const axios = require('axios').default;
 
@@ -12,7 +13,7 @@ function LogInForm() {
   const [pass, setPass ] = useState('');
 
   const handleSubmit = (event) => {
-    axios.post("https://vietanhtran2069.bsite.net/api/Login", 
+    axios.post("/Login", 
     {
       "email": "email@gmail.com",
       "password": "1"
@@ -38,6 +39,7 @@ function LogInForm() {
         <div className="button-container">
           <input type="submit" />
         </div>
+        <a href="/signup">Don't have an account? Click here to sign up</a>
       </form>
     </div>
   )
